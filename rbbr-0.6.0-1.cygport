@@ -1,0 +1,5 @@
+inherit ruby
+
+DESCRIPTION="Ruby API browser"
+HOMEPAGE="http://ruby-gnome2.sourceforge.jp/hiki.cgi?rbbr"
+SRC_URI="mirror://sourceforge/ruby-gnome2/${P}.tar.gz"

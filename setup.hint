@@ -1,0 +1,5 @@
+category: Doc Ruby
+requires: ruby ruby-gettext ruby-glib2 ruby-gtk2 ruby-gconf2 ruby-gnome2
+sdesc: "Ruby API browser"
+ldesc: "rbbr is an application to browse Ruby modules/classes hierarchy 
+and their constants and methods."
