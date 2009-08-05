@@ -4,7 +4,7 @@ rbbr is an application to browse Ruby modules/classes hierarchy and
 their constants and methods.
 
 Runtime requirements:
-  ruby-1.8.6_p114-2
+  ruby-1.8.7_p72-10
   ruby-gettext
   ruby-gconf2
   ruby-glib2
@@ -12,8 +12,9 @@ Runtime requirements:
   ruby-gtk2
 
 Build requirements:
-  cygport-0.3.12-1
-  ruby-1.8.6_p114-2
+  cygport-0.9.8-1
+  ruby-1.8.7_p72-10
+  ruby-gettext-2.0.4-1
 
 Canonical website:
   http://ruby-gnome2.sourceforge.jp/hiki.cgi?rbbr
@@ -66,10 +67,10 @@ Files included in the binary package:
   /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/stockbrowser.rb
   /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/undo.rb
   /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/windowutils.rb
-  /usr/share/doc/rbbr-0.6.0/AUTHORS
-  /usr/share/doc/rbbr-0.6.0/COPYING
-  /usr/share/doc/rbbr-0.6.0/ChangeLog
-  /usr/share/doc/rbbr-0.6.0/README
+  /usr/share/doc/rbbr/AUTHORS
+  /usr/share/doc/rbbr/COPYING
+  /usr/share/doc/rbbr/ChangeLog
+  /usr/share/doc/rbbr/README
   /usr/share/locale/be/LC_MESSAGES/rbbr.mo
   /usr/share/locale/cy/LC_MESSAGES/rbbr.mo
   /usr/share/locale/de/LC_MESSAGES/rbbr.mo
@@ -86,8 +87,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.6.0-1 -----
-Initial release for Cygwin.
+----- version 0.6.0-2 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
