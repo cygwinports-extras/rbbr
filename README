@@ -12,7 +12,7 @@ Runtime requirements:
   ruby-gtk2
 
 Build requirements:
-  cygport-0.9.8-1
+  cygport-0.9.84-1
   ruby-1.8.7_p72-10
   ruby-gettext-2.0.4-1
 
@@ -37,55 +37,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/rbbr
-  /usr/lib/ruby/site_ruby/1.8/rbbr.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/config.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/doc.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/doc/rd.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/doc/refe.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/doc/ri.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/doc/ri2.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/metainfo.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/aboutdialog.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/browselist.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/browser.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/confmanager.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/constlist.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/docviewer.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/libselectiondialog.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/linkedtextbuffer.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/methodlist.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/moduledisplay.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/modulelabel.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/modulelistview.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/moduletreeview.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/moduleview.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/searchentrybox.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/stockbrowser.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/undo.rb
-  /usr/lib/ruby/site_ruby/1.8/rbbr/ui/gtk/windowutils.rb
-  /usr/share/doc/rbbr/AUTHORS
-  /usr/share/doc/rbbr/COPYING
-  /usr/share/doc/rbbr/ChangeLog
-  /usr/share/doc/rbbr/README
-  /usr/share/locale/be/LC_MESSAGES/rbbr.mo
-  /usr/share/locale/cy/LC_MESSAGES/rbbr.mo
-  /usr/share/locale/de/LC_MESSAGES/rbbr.mo
-  /usr/share/locale/es/LC_MESSAGES/rbbr.mo
-  /usr/share/locale/fr/LC_MESSAGES/rbbr.mo
-  /usr/share/locale/it/LC_MESSAGES/rbbr.mo
-  /usr/share/locale/ja/LC_MESSAGES/rbbr.mo
-  /usr/share/locale/ko/LC_MESSAGES/rbbr.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/rbbr.mo
-  /usr/share/rbbr/icon.png
-  /usr/share/rbbr/rd/README
-
-------------------
-
 Port Notes:
+
+----- version 0.6.0-3 -----
+Added desktop menu entry.
 
 ----- version 0.6.0-2 -----
 Initial release for Cygwin 1.7.
